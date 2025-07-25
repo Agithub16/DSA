@@ -90,7 +90,7 @@ int main(){
 //array;
 
 
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 void myfunction(int mynumbers[5]){
     for(int i=0;i<5;i++){
@@ -101,7 +101,22 @@ int main(){
     int mynumbers[5]={1,2,3,4,5};
     myfunction(mynumbers);
     return 0;
+}*/
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void myfunction(int ayusharray[2]){
+    for(int i=0;i<2;i++){
+        cout<<ayusharray[i]<<" ";
+    }
 }
+int main(){
+    int ayusharray[2]={10,20};
+    myfunction(ayusharray);
+    return 0;
+}
+    
 
 
 
