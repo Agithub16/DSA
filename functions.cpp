@@ -62,7 +62,7 @@ int main(){
 }*/
 
 //pass by reference
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 void swap_numbers(int &x,int &y){
    int z=x;
@@ -84,9 +84,24 @@ int main(){
      return 0;
 
      
+}*/
+
+
+//array;
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void myfunction(int mynumbers[5]){
+    for(int i=0;i<5;i++){
+        cout<<mynumbers[i]<<" ";
+    }
 }
-
-
+int main(){
+    int mynumbers[5]={1,2,3,4,5};
+    myfunction(mynumbers);
+    return 0;
+}
 
 
 
