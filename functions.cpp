@@ -61,6 +61,32 @@ int main(){
     return 0;
 }*/
 
+//pass by reference
+#include<bits/stdc++.h>
+using namespace std;
+void swap_numbers(int &x,int &y){
+   int z=x;
+   x=y;
+   y=z;
+}
+int main(){
+   
+    int firstnum=10;
+    int secondnum=20;
+    
+     cout<<"before swapping "<<"\n";
+     cout<<firstnum<<" "<<secondnum<<"\n";
+
+     cout<<"after swapping"<<"\n";
+     swap_numbers(firstnum,secondnum);
+
+     cout<<firstnum<<" "<<secondnum<<"\n";
+     return 0;
+
+     
+}
+
+
 
 
 
