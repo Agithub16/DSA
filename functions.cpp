@@ -104,7 +104,7 @@ int main(){
 }*/
 
 
-#include<bits/stdc++.h>
+/*#include<bits/stdc++.h>
 using namespace std;
 void myfunction(int ayusharray[2]){
     for(int i=0;i<2;i++){
@@ -115,7 +115,30 @@ int main(){
     int ayusharray[2]={10,20};
     myfunction(ayusharray);
     return 0;
+}*/
+
+//function overloading 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int myfunction(int x,int y){
+    return x+y;
+
 }
+double myfunction(double x,double y){
+    return x+y;
+}
+
+int main(){
+    int num1=myfunction(5,4);
+    double num2=myfunction(5.5,4.5);
+    cout<<"int = "<<num1<<endl;
+    cout<<"double = "<<num2<<endl;
+    return 0;
+
+}
+
     
 
 
